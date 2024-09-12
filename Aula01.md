@@ -17,7 +17,7 @@ O GITHUB é uma plataforma de desenvolvimento colaborativo, aqui na plataforma p
 \
 > Merge -  É basicamente misturar os códigos, é como dizer : "Tudo certo! Vamos juntar as minhas mudanças com o trabalho de todo mundo."\
 \
-> Fork - É como criar uma cópia pessoal de um repositório, onde podemos fazer várias coisas nele.
+> Fork - É como criar uma cópia pessoal de um repositório, onde podemos fazer várias coisas nele.\
 ° Personalizar: Você pode fazer alterações no código sem afetar o projeto original. É como ter seu próprio laboratório para experimentar.\
 ° Contribuir: Se você quiser propor mudanças para o projeto original, pode criar um fork, fazer as alterações e enviar um pull request.\
 ° Apreender: É uma ótima forma de aprender um novo código ou tecnologia. Você pode explorar o código de outros, modificá-lo e entender como funciona.
