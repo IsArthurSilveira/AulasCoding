@@ -6,7 +6,6 @@
  ```
 Bom, sobre o GITHUB, existem várias coisas que podem ser ditas mas optarei por dizer apenas o conteúdo que vimos na aula.
 O GITHUB é uma plataforma de desenvolvimento colaborativo, aqui na plataforma podemos trabalhar com armazenar e administrar nossos códigos.
-Mas antes de tudo, Primeiro vamos aprender a criar uma conta no GITHUB...
 ```
 ### Conceitos do GITHUB :
 > Branch (Branches ) - São como cópias do seu projeto que você pode editar sem medo de estragar tudo. É como ter vários universos paralelos do seu código, onde várias equipes tem o seu.\
