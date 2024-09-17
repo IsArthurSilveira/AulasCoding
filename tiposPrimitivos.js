@@ -49,4 +49,4 @@ var pesoKG = 58;
 var alt = 1.70;
 const imc = pesoKG / (alt * alt);
 const imcFixed = imc.toFixed(2);
-console.log(`Altura : ${alt}m, Peso : ${pesoKG}kg , Valor do imc é : ${imcFixed}`);
+console.log(`10° - Altura : ${alt}m, Peso : ${pesoKG}kg , Valor do imc é : ${imcFixed}`);
