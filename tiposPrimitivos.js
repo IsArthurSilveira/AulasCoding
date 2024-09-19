@@ -1,5 +1,6 @@
+const PromptSync = require("prompt-sync");
+const prompt = require("prompt-sync")();
 console.log('Atividade de Coding');
-
 /*Primeiro Quesito*/
 var nome = "Arthur";
 var idade = 20;
@@ -11,8 +12,8 @@ var cidade = "Recife";
 console.log(`2° - ${nome2} mora na cidade de ${cidade}`);
 
 /*Terceira Quesito*/
-var num1 = 3;
-var num2 = 17;
+var num1 = parseInt(prompt("Digite um numero"));
+var num2 = parseInt(prompt ("Digite outro numero"));
 let soma = num1+num2;
 let sub = num1-num2;
 let mult = num1*num2;
