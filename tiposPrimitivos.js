@@ -1,6 +1,5 @@
 const PromptSync = require("prompt-sync");
 const prompt = require("prompt-sync")();
-
 console.log('Atividade de Coding');
 // 1 questão
 console.log('Vamos começar fazendo seu cadastro');
@@ -83,8 +82,25 @@ var celsius = 37;
 var fahrenheit = ((celsius * 9)/5) + 32;
 console.log(`9° - A temperatura é ${celsius}°C, convertendo para Fahrenheit temos ${fahrenheit} °F`);
 // 10 questão
-var pesoKG = 58;
-var alt = 1.70;
-const imc = pesoKG / (alt * alt);
-const imcFixed = imc.toFixed(2);
-console.log(`10° - Altura : ${alt}m, Peso : ${pesoKG}kg , Valor do imc é : ${imcFixed}`);
+let peso = parseFloat(prompt("Digite o seu peso : "));
+let altura2 = parseFloat(prompt("Digite a sua altura : "));
+let imc = peso/(altura2*altura2);
+console.log(`O seu IMC é ${imc.toFixed(2)}`);
+if(imc<18.5){
+    console.log("Você está abaixo do peso");
+}
+else if(imc<24.9){
+    console.log("Você está com o peso normal");
+}
+else if(imc<29.9){
+    console.log("Você está com sobrepeso");
+}
+else if(imc<34.9){
+    console.log("Você está com obesidade grau 1");
+}
+else if(imc<39.9){
+    console.log("Você está com obesidade grau 2");
+}
+else{
+    console.log("Você está com obesidade grau 3");
+}
